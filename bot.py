@@ -1,9 +1,10 @@
 from datetime import datetime
 from pymongo import MongoClient
 from pymongo.cursor import CursorType
-import sys, json, requests
-# sys.path.append('/home/ec2-user/docker/flask')
-# from . import app
+import sys, json, requests, os
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+"/docker/flask/")
+import app1
+
 global flag
 
 flag = 0
@@ -34,19 +35,11 @@ def check_day(user_day):
             flag = 1
     elif user_day == '매일':
         flag = 1
-
     return flag
 
-
-
 def set_time(time):
-    if time[:2] == '오전':
-        user_time = 0
-    elif time[:2] == '오후':
-        user_time = 12
-    user_time += int(time[3:-1])
+    user_time = int(time[:-1])
     return user_time
-
 
 def kakao_friends_send(message, friend_uuid):
     with open("/home/ec2-user/docker/flask/kakao_code_friends_owner.json","r") as fp:
@@ -72,22 +65,46 @@ def kakao_friends_send(message, friend_uuid):
     response.status_code
     print('kakao to friend sended')
         
+def set_data(local, date):
+    weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
+    temp = []
+    for i in weather_db:
+        temp.append(int(i['tmp']))
+    temp_mean = (sum(temp) / int(len(temp)))
+    temp_mean = round(temp_mean, 2)
+    temp_max = max(temp)
+    temp_min = min(temp)
+    return temp_mean, temp_max, temp_min
 
+def set_message():
+    global message
+    message = ''
+    message = today[4:6] + "월 "+today[6:8]+"일의 " 
+    message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 \n"+"평균온도 "
+    message += str(temp_mean)+"도 입니다."
+    print(message)
+    return message
 
 if __name__ == '__main__':
     host = "172.17.0.2"
     port = "27017"
+    app1.nowtime()
     now = datetime.now()
     mongo = MongoClient(host, int(port))
     weekday_check, weekend_check, everyday_check = set_day()
     setting_time = find_item(mongo, None, "alarm", "setting")
     
     for i in setting_time:
-        print(i)
+        user_name = i['name']
+        user_local = i['local']
+        user_db = find_item(mongo, {"name":user_name}, "alarm", "kakao")
+        for j in user_db:
+            user_uuid = j['uuid']
         flag = check_day(i['day'])
         if flag == 1:
-            print(set_time(i['time']))
-            print(now.hour)
-            if set_time(i['time']) == now.hour:   
-                kakao_friends_send('테스트', 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q')
+            if set_time(i['time']) == now.hour: 
+                today = app1.nowtime()  
+                temp_mean, temp_max, temp_min = set_data(user_local, today[:8])
+                message = set_message()
+                kakao_friends_send(message, user_uuid)
             
