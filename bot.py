@@ -6,11 +6,10 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+"/
 import app1
 
 global flag
-
 flag = 0
 
 def find_item(mongo, condition=None, db_name=None, collection_name=None):
-    result = mongo[db_name][collection_name].find(condition, {"_id":False})
+    result = mongo[db_name][collection_name].find(condition, {"_id":False}).sort('date')
     return result
 
 def set_day():
@@ -65,35 +64,43 @@ def kakao_friends_send(message, friend_uuid):
     response.status_code
     print('kakao to friend sended')
         
-def set_data(local, date):
+def set_temp_data(local, date):
     weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
     temp = []
     for i in weather_db:
         temp.append(int(i['tmp']))
-    temp_mean = (sum(temp) / int(len(temp)))
-    temp_mean = round(temp_mean, 2)
     temp_max = max(temp)
     temp_min = min(temp)
-    return temp_mean, temp_max, temp_min
+    return temp_max, temp_min
+
+def set_rain_data(local, date):
+    weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
+    rain = []
+    for i in weather_db:
+        rain.append(int(i['rain'])
+    print(rain)
+    am = max(rain[:12])
+    pm = max(rain[12:])
+    return am, pm
+    
 
 def set_message():
     global message
     message = ''
-    message = today[4:6] + "월 "+today[6:8]+"일의 " 
-    message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 \n"+"평균온도 "
-    message += str(temp_mean)+"도 입니다."
+    message += today[4:6] + "월 "+today[6:8]+"일의 " 
+    message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
+    message += "오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
     print(message)
     return message
 
-if __name__ == '__main__':
-    host = "172.17.0.2"
-    port = "27017"
-    app1.nowtime()
-    now = datetime.now()
-    mongo = MongoClient(host, int(port))
+def send_message():
+    global weekday_check, weekend_check, everyday_check, today, user_local, temp_max, temp_min, am, pm
+
     weekday_check, weekend_check, everyday_check = set_day()
     setting_time = find_item(mongo, None, "alarm", "setting")
-    
+    app1.kakao_owner_token()
+    app1.kakao_owner_check()
+    app1.kakao_friends_update()
     for i in setting_time:
         user_name = i['name']
         user_local = i['local']
@@ -104,7 +111,24 @@ if __name__ == '__main__':
         if flag == 1:
             if set_time(i['time']) == now.hour: 
                 today = app1.nowtime()  
-                temp_mean, temp_max, temp_min = set_data(user_local, today[:8])
+                temp_max, temp_min = set_temp_data(user_local, today[:8])
+                am, pm = set_rain_data(user_local, today[:8])
                 message = set_message()
                 kakao_friends_send(message, user_uuid)
+
+if __name__ == '__main__':
+    host = "172.17.0.2"
+    port = "27017"
+    app1.nowtime()
+    now = datetime.now()
+    mongo = MongoClient(host, int(port))
+    # print('code를 입력하세요.')
+    # code = input()
+    # app1.kakao_to_friends_get_ownertokens(code)
+    send_message()
+    
+    
+    
+    
+    
             
