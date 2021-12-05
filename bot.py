@@ -5,9 +5,6 @@ import sys, json, requests, os
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+"/docker/flask/")
 import app1
 
-global flag
-flag = 0
-
 def find_item(mongo, condition=None, db_name=None, collection_name=None):
     result = mongo[db_name][collection_name].find(condition, {"_id":False}).sort('date')
     return result
@@ -17,7 +14,7 @@ def set_day():
     weekend_check = 0 
     everyday_check = 0
     day = datetime.today().weekday()
-    if day > 0 & day < 5:
+    if day > 0 and day < 5:
         weekday_check = 1
         everyday_check = 1
     else:
@@ -26,11 +23,13 @@ def set_day():
     return weekday_check, weekend_check, everyday_check
 
 def check_day(user_day):
+    global flag
+    flag = 0
     if user_day == '평일':
         if weekday_check == 1:
             flag = 1
     elif user_day == '주말':
-        if everyday_check == 1:
+        if weekend_check == 1:
             flag = 1
     elif user_day == '매일':
         flag = 1
@@ -41,9 +40,10 @@ def set_time(time):
     return user_time
 
 def kakao_friends_send(message, friend_uuid):
-    with open("/home/ec2-user/docker/flask/kakao_code_friends_owner.json","r") as fp:
+    with open("kakao_code_friends_owner.json","r") as fp:
         tokens = json.load(fp)
     print(tokens)
+    print('token check finish')
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
@@ -59,10 +59,12 @@ def kakao_friends_send(message, friend_uuid):
             }
         })
     }
+    print('-----------message------------')
     print(message)
+    print('------------------------------')
     response = requests.post(send_url, headers=headers, data=data)
     response.status_code
-    print('kakao to friend sended')
+    print(response)
         
 def set_temp_data(local, date):
     weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
@@ -77,25 +79,21 @@ def set_rain_data(local, date):
     weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
     rain = []
     for i in weather_db:
-        rain.append(int(i['rain'])
-    print(rain)
+        rain.append(int(i['rain']))
     am = max(rain[:12])
     pm = max(rain[12:])
     return am, pm
     
-
 def set_message():
     global message
     message = ''
     message += today[4:6] + "월 "+today[6:8]+"일의 " 
     message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
-    message += "오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
-    print(message)
+    message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
     return message
 
 def send_message():
     global weekday_check, weekend_check, everyday_check, today, user_local, temp_max, temp_min, am, pm
-
     weekday_check, weekend_check, everyday_check = set_day()
     setting_time = find_item(mongo, None, "alarm", "setting")
     app1.kakao_owner_token()
@@ -122,6 +120,7 @@ if __name__ == '__main__':
     app1.nowtime()
     now = datetime.now()
     mongo = MongoClient(host, int(port))
+    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=https://3.34.129.77/kakao_friend&response_type=code&scope=talk_message,friends
     # print('code를 입력하세요.')
     # code = input()
     # app1.kakao_to_friends_get_ownertokens(code)
