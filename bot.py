@@ -5,6 +5,7 @@ from pymongo import MongoClient
 from pymongo.cursor import CursorType
 from urllib.parse import urlencode, unquote, quote_plus
 from urllib.request import urlopen, Request
+from urllib import parse
 from datetime import datetime
 from datetime import timedelta
 import sys, json, requests, os, xmltodict
@@ -53,7 +54,7 @@ def check_day(user_day):
             flag = 1
     elif user_day == '매일':
         if everyday_check == 1:
-        flag = 1
+            flag = 1
     return flag
 
 def set_time(time):
@@ -63,7 +64,7 @@ def set_time(time):
 def kakao_friends_send(message, friend_uuid):
     with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
         tokens = json.load(fp)
-    print(tokens)
+    # print(tokens)
     print('token check finish')
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
@@ -108,14 +109,19 @@ def set_message():
     global message
     corona, corona_time = get_corona()
     message = ''
-    message += today[4:6] + "월 "+today[6:8]+"일의 " 
-    message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
-    message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다.\n"
-    message += corona_time +'\n확진자 수는 ' +corona+ '입니다.'
+    message += today[4:6]+"월 "+today[6:8]+"일 "+user_local+"의" 
+    if '1' in user_content:
+        message += " \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
+    if '2' in user_content:
+        message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
+    if '3' in user_content:
+        message += "\n"+corona_time +'\n확진자 수는 ' +corona+ '입니다.'
+    if '4' in user_content:
+        message += '\n미세먼지는 ' + user_dust + '입니다.'
     return message
 
 def send_message():
-    global weekday_check, weekend_check, everyday_check, today, user_local, temp_max, temp_min, am, pm
+    global weekday_check, weekend_check, everyday_check, today, user_local, user_content, temp_max, temp_min, am, pm, user_dust
     weekday_check, weekend_check, everyday_check = set_day()
     setting_time = find_item(mongo, None, "alarm", "setting")
     # app1.kakao_owner_token()
@@ -127,6 +133,7 @@ def send_message():
     for i in setting_time:
         user_name = i['name']
         user_local = i['local']
+        user_content = i['content']
         user_db = find_item(mongo, {"name":user_name}, "alarm", "kakao")
         for j in user_db:
             user_uuid = j['uuid']
@@ -137,6 +144,7 @@ def send_message():
                 today = nowtime() 
                 temp_max, temp_min = set_temp_data(user_local, today[:8])
                 am, pm = set_rain_data(user_local, today[:8])
+                user_dust = get_dust(user_local)
                 message = set_message()
                 kakao_friends_send(message, user_uuid)
                 print(j['name'] + "에게 알림 전송완료")
@@ -182,8 +190,8 @@ def kakao_owner_token():
     url="https://kapi.kakao.com/v1/user/access_token_info"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     response = requests.post(url, headers=headers)
-    print(response.text)
-    print("kakao_owner_token_finish")
+    # print(response.text)
+    # print("kakao_owner_token_finish")
     return response.text
 
 def kakao_owner_check():
@@ -192,8 +200,8 @@ def kakao_owner_check():
     url="https://kapi.kakao.com/v2/user/me"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     response = requests.post(url, headers=headers)
-    print(response.text)
-    print("kakao_owner_check_finish")
+    # print(response.text)
+    # print("kakao_owner_check_finish")
     return response.text
 
 def kakao_friends_update():
@@ -206,9 +214,32 @@ def kakao_friends_update():
     try:
         for friend in friends_list:
             update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
-            print(friend['profile_nickname']+"success")
+        print("friends_update success")
     except:
         print('friends_update fail')
+
+def get_dust(local):     # 기상청에 API를 요청하여 데이터를 받음
+    CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty'
+    key = 'XIjRFoewvUDp4EDhRpATADoatwElkiQ%2F1J0tDooGjBTKStjRtuW3Zu89iE9cBsK%2Bz299IJwkbaE%2F%2F7SzcVo2yA%3D%3D'
+    params = f'?{parse.quote_plus("ServiceKey")}={key}&'+parse.urlencode({
+        parse.quote_plus('returnType') : 'xml',
+        parse.quote_plus('stationName') : local,
+        parse.quote_plus('dataTerm') : 'DAILY',
+    })
+    
+    response = requests.get(CallBackURL+params)
+    dust = (CallBackURL+params).find(key)
+    if dust <= 30:
+        dust_state = '아주 좋음'
+    elif dust <= 60:
+        dust_state = '좋음'
+    elif dust <= 90:
+        dust_state = '보통'
+    elif dust <= 120:
+        dust_state = '나쁨'
+    else:
+        dust_state = '매우나쁨'
+    return dust_state
 
 
 if __name__ == '__main__':
