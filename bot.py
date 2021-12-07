@@ -1,20 +1,40 @@
+#! /usr/bin/python
+
 from datetime import datetime
 from pymongo import MongoClient
 from pymongo.cursor import CursorType
-import sys, json, requests, os
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+"/docker/flask/")
-import app1
+from urllib.parse import urlencode, unquote, quote_plus
+from urllib.request import urlopen, Request
+from datetime import datetime
+from datetime import timedelta
+import sys, json, requests, os, xmltodict
+
+# sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('__file__')))+"/docker/flask/")
+# import app1
 
 def find_item(mongo, condition=None, db_name=None, collection_name=None):
     result = mongo[db_name][collection_name].find(condition, {"_id":False}).sort('date')
     return result
+
+def update_item_one(mongo, condition=None, update_value=None, db_name=None, collection_name=None):
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+    return result
+
+def get_corona():
+    url = 'https://api.corona-19.kr/korea/?serviceKey=fbBHzjSOLvpkMa6ZyArcWIRYdoGV39U25'
+    response = urlopen(url)
+    response_message = response.read().decode('utf8')
+    data = json.loads(response_message)
+    corona = str(data['TotalCaseBefore']) + '명'
+    corona_time = data['updateTime']
+    return corona, corona_time
 
 def set_day():
     weekday_check = 0
     weekend_check = 0 
     everyday_check = 0
     day = datetime.today().weekday()
-    if day > 0 and day < 5:
+    if day >= 0 and day < 5:
         weekday_check = 1
         everyday_check = 1
     else:
@@ -32,6 +52,7 @@ def check_day(user_day):
         if weekend_check == 1:
             flag = 1
     elif user_day == '매일':
+        if everyday_check == 1:
         flag = 1
     return flag
 
@@ -40,7 +61,7 @@ def set_time(time):
     return user_time
 
 def kakao_friends_send(message, friend_uuid):
-    with open("kakao_code_friends_owner.json","r") as fp:
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
         tokens = json.load(fp)
     print(tokens)
     print('token check finish')
@@ -64,7 +85,6 @@ def kakao_friends_send(message, friend_uuid):
     print('------------------------------')
     response = requests.post(send_url, headers=headers, data=data)
     response.status_code
-    print(response)
         
 def set_temp_data(local, date):
     weather_db = find_item(mongo, {"local":local, "date":{"$regex":"^"+date}}, "alarm", "weather")
@@ -86,19 +106,24 @@ def set_rain_data(local, date):
     
 def set_message():
     global message
+    corona, corona_time = get_corona()
     message = ''
     message += today[4:6] + "월 "+today[6:8]+"일의 " 
     message += user_local +" 날씨는 \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
-    message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
+    message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다.\n"
+    message += corona_time +'\n확진자 수는 ' +corona+ '입니다.'
     return message
 
 def send_message():
     global weekday_check, weekend_check, everyday_check, today, user_local, temp_max, temp_min, am, pm
     weekday_check, weekend_check, everyday_check = set_day()
     setting_time = find_item(mongo, None, "alarm", "setting")
-    app1.kakao_owner_token()
-    app1.kakao_owner_check()
-    app1.kakao_friends_update()
+    # app1.kakao_owner_token()
+    # app1.kakao_owner_check()
+    # app1.kakao_friends_update()
+    kakao_owner_token()
+    kakao_owner_check()
+    kakao_friends_update()
     for i in setting_time:
         user_name = i['name']
         user_local = i['local']
@@ -108,22 +133,97 @@ def send_message():
         flag = check_day(i['day'])
         if flag == 1:
             if set_time(i['time']) == now.hour: 
-                today = app1.nowtime()  
+                # today = app1.nowtime()  
+                today = nowtime() 
                 temp_max, temp_min = set_temp_data(user_local, today[:8])
                 am, pm = set_rain_data(user_local, today[:8])
                 message = set_message()
                 kakao_friends_send(message, user_uuid)
+                print(j['name'] + "에게 알림 전송완료")
+
+
+#--------------------------------------------------------------------------------------------
+def kakao_to_friends_get_ownertokens(code):
+    url = 'https://kauth.kakao.com/oauth/token'
+    authorize_code = code
+    data = {
+        'grant_type':'authorization_code',
+        'client_id':'91d3b37e4651a9c3ab0216abfe877a50',
+        'redirect_uri':'https://3.35.252.82/kakao_friend',
+        'code': authorize_code,
+        }
+    response = requests.post(url, data=data)
+    tokens = response.json()
+    print(tokens)
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","w") as fp:
+        json.dump(tokens, fp)
+
+def nowtime():
+    now = datetime.now()
+    if now.month < 10:
+        today_month = '0'+str(now.month)
+    else:
+        today_month = str(now.month) 
+    if now.day < 10:
+        today_day = '0'+str(now.day)
+    else:
+        today_day = str(now.day)
+    if now.hour < 10:
+        today_hour = '0'+str(now.hour)
+    else:
+        today_hour = str(now.hour)
+    today_date = str(now.year)+today_month+today_day
+    today_time = today_hour+'00'
+    return str(today_date + '-' + today_time)
+
+def kakao_owner_token():
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
+        tokens = json.load(fp)
+    url="https://kapi.kakao.com/v1/user/access_token_info"
+    headers={"Authorization" : "Bearer " + tokens["access_token"]}
+    response = requests.post(url, headers=headers)
+    print(response.text)
+    print("kakao_owner_token_finish")
+    return response.text
+
+def kakao_owner_check():
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
+        tokens = json.load(fp)
+    url="https://kapi.kakao.com/v2/user/me"
+    headers={"Authorization" : "Bearer " + tokens["access_token"]}
+    response = requests.post(url, headers=headers)
+    print(response.text)
+    print("kakao_owner_check_finish")
+    return response.text
+
+def kakao_friends_update():
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
+        tokens = json.load(fp)
+    friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
+    headers={"Authorization" : "Bearer " + tokens["access_token"]}
+    result = json.loads(requests.get(friend_url, headers=headers).text)
+    friends_list = result.get("elements")
+    try:
+        for friend in friends_list:
+            update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+            print(friend['profile_nickname']+"success")
+    except:
+        print('friends_update fail')
+
 
 if __name__ == '__main__':
     host = "172.17.0.2"
     port = "27017"
-    app1.nowtime()
+    # app1.nowtime()
+    nowtime()
     now = datetime.now()
     mongo = MongoClient(host, int(port))
-    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=https://3.34.129.77/kakao_friend&response_type=code&scope=talk_message,friends
+    print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
+    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=https://3.35.252.82/kakao_friend&response_type=code&scope=talk_message,friends
     # print('code를 입력하세요.')
     # code = input()
     # app1.kakao_to_friends_get_ownertokens(code)
+    # kakao_to_friends_get_ownertokens(code)
     send_message()
     
     
