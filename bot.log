@@ -277,3 +277,40 @@ Traceback (most recent call last):
     user_content = i['content']
 KeyError: 'content'
 2021년 12월 7일 21시 1분
+2021년 12월 7일 22시 0분
+friends_update success
+2021년 12월 7일 23시 0분
+friends_update success
+2021년 12월 8일 0시 0분
+friends_update fail
+2021년 12월 8일 1시 0분
+friends_update fail
+2021년 12월 8일 2시 0분
+friends_update fail
+2021년 12월 8일 3시 0분
+friends_update fail
+2021년 12월 8일 4시 0분
+friends_update fail
+2021년 12월 8일 5시 0분
+friends_update fail
+2021년 12월 8일 6시 0분
+friends_update fail
+2021년 12월 8일 7시 0분
+friends_update fail
+2021년 12월 8일 8시 0분
+friends_update fail
+token check finish
+-----------message------------
+12월 08일 관악구의 
+최고온도 11도 
+최저온도 1도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 20%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.07. 00시 기준)
+확진자 수는 4954명입니다.
+------------------------------
+김민정에게 알림 전송완료
+2021년 12월 8일 9시 0분
+friends_update fail
+2021년 12월 8일 10시 0분
+friends_update success

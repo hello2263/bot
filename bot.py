@@ -114,10 +114,10 @@ def set_message():
         message += " \n최고온도 "+str(temp_max)+"도 \n"+"최저온도 "+str(temp_min)+"도 입니다."
     if '2' in user_content:
         message += "\n오전 강수확률은 "+str(am)+"%이며 \n오후 강수확률은 "+str(pm)+"%입니다."
-    if '3' in user_content:
-        message += "\n"+corona_time +'\n확진자 수는 ' +corona+ '입니다.'
     if '4' in user_content:
         message += '\n미세먼지는 ' + user_dust + '입니다.'
+    if '3' in user_content:
+        message += "\n"+corona_time +'\n확진자 수는 ' +corona+ '입니다.'
     return message
 
 def send_message():
@@ -127,8 +127,8 @@ def send_message():
     # app1.kakao_owner_token()
     # app1.kakao_owner_check()
     # app1.kakao_friends_update()
+    # kakao_owner_check()
     kakao_owner_token()
-    kakao_owner_check()
     kakao_friends_update()
     for i in setting_time:
         user_name = i['name']
@@ -149,6 +149,25 @@ def send_message():
                 kakao_friends_send(message, user_uuid)
                 print(j['name'] + "에게 알림 전송완료")
 
+def kakao_to_friends_get_refreshtokens():
+    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
+        token_data = json.load(fp)
+    refresh = token_data['refresh_token']
+    url = "https://kauth.kakao.com/oauth/token"
+    rest_api_key = '91d3b37e4651a9c3ab0216abfe877a50'
+    data = {
+        "grant_type": "refresh_token",
+        "client_id": f"{rest_api_key}",
+        "refresh_token": refresh
+    }
+    response = requests.post(url, data=data)
+    tokens = response.json()
+
+    with open("kakao_code_friends_refresh.json", "w") as fp:
+        json.dump(tokens, fp)
+
+    return tokens['access_token']
+
 
 #--------------------------------------------------------------------------------------------
 def kakao_to_friends_get_ownertokens(code):
@@ -165,6 +184,7 @@ def kakao_to_friends_get_ownertokens(code):
     print(tokens)
     with open("/home/ec2-user/bot/kakao_code_friends_owner.json","w") as fp:
         json.dump(tokens, fp)
+    return str(tokens['refresh_token'])
 
 def nowtime():
     now = datetime.now()
@@ -192,16 +212,6 @@ def kakao_owner_token():
     response = requests.post(url, headers=headers)
     # print(response.text)
     # print("kakao_owner_token_finish")
-    return response.text
-
-def kakao_owner_check():
-    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
-        tokens = json.load(fp)
-    url="https://kapi.kakao.com/v2/user/me"
-    headers={"Authorization" : "Bearer " + tokens["access_token"]}
-    response = requests.post(url, headers=headers)
-    # print(response.text)
-    # print("kakao_owner_check_finish")
     return response.text
 
 def kakao_friends_update():
@@ -255,6 +265,7 @@ if __name__ == '__main__':
     # code = input()
     # app1.kakao_to_friends_get_ownertokens(code)
     # kakao_to_friends_get_ownertokens(code)
+    kakao_to_friends_get_refreshtokens()
     send_message()
     
     
