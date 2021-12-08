@@ -260,7 +260,7 @@ if __name__ == '__main__':
     now = datetime.now()
     mongo = MongoClient(host, int(port))
     print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
-    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=https://3.35.252.82/kakao_friend&response_type=code&scope=talk_message,friends
+    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_code&response_type=code&scope=talk_message,friends
     # print('code를 입력하세요.')
     # code = input()
     # app1.kakao_to_friends_get_ownertokens(code)
