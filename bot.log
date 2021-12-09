@@ -320,3 +320,79 @@ friends_update success
 friends_update success
 2021년 12월 8일 13시 0분
 friends_update success
+2021년 12월 8일 14시 0분
+friends_update success
+2021년 12월 8일 15시 0분
+friends_update success
+2021년 12월 8일 16시 0분
+friends_update success
+2021년 12월 8일 17시 0분
+friends_update fail
+2021년 12월 8일 18시 0분
+friends_update fail
+2021년 12월 8일 19시 0분
+friends_update fail
+2021년 12월 8일 20시 0분
+friends_update fail
+2021년 12월 8일 21시 0분
+friends_update fail
+2021년 12월 8일 22시 0분
+friends_update fail
+2021년 12월 8일 23시 0분
+friends_update fail
+2021년 12월 9일 0시 0분
+friends_update fail
+2021년 12월 9일 1시 0분
+friends_update fail
+2021년 12월 9일 2시 0분
+friends_update fail
+2021년 12월 9일 3시 0분
+friends_update fail
+2021년 12월 9일 4시 0분
+friends_update fail
+2021년 12월 9일 5시 0분
+friends_update fail
+2021년 12월 9일 6시 0분
+friends_update fail
+2021년 12월 9일 7시 0분
+friends_update fail
+2021년 12월 9일 8시 0분
+friends_update fail
+2021년 12월 9일 9시 0분
+friends_update fail
+token check finish
+-----------message------------
+12월 09일 관악구의 
+최고온도 10도 
+최저온도 2도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.08. 00시 기준)
+확진자 수는 7175명입니다.
+------------------------------
+김민정에게 알림 전송완료
+2021년 12월 9일 10시 0분
+friends_update fail
+2021년 12월 9일 11시 0분
+friends_update fail
+2021년 12월 9일 12시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 268, in <module>
+    kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/bot.py", line 155, in kakao_to_friends_get_refreshtokens
+    refresh = token_data['refresh_token']
+KeyError: 'refresh_token'
+2021년 12월 9일 13시 0분
+yODb-aNSxIRAYF29Gx2_kwvpGdYCxUCVZneb4oFyMrjoV3ihfCUzAPKUOLbChHtcatW4gwopb9QAAAF9nTsAcg
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 256, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 42, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 169, in <module>
+    func.nowtime()
+  File "/home/ec2-user/bot/func.py", line 93, in nowtime
+    now = datetime.now()
+NameError: name 'datetime' is not defined
