@@ -396,3 +396,80 @@ Traceback (most recent call last):
   File "/home/ec2-user/bot/func.py", line 93, in nowtime
     now = datetime.now()
 NameError: name 'datetime' is not defined
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 169, in <module>
+    func.nowtime()
+  File "/home/ec2-user/bot/func.py", line 93, in nowtime
+    now = datetime.now()
+NameError: name 'datetime' is not defined
+2021년 12월 9일 16시 0분
+5QYsfRHBrcMHGze6V_xCMkZ4uV7l6jsSFtsY4XPZNHjoYTH140RyLPblp-JE3i8UGlIw3wo9dRoAAAF9nfySAA
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 181, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 47, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 9일 18시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 177, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: timed out, Timeout: 30s, Topology Description: <TopologyDescription id: 61b1c5936b1ab12acf11575a, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.17.0.2:27017: timed out')>]>
+2021년 12월 9일 19시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 177, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: timed out, Timeout: 30s, Topology Description: <TopologyDescription id: 61b1d3a2ab70539e2537000b, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.17.0.2:27017: timed out')>]>
+2021년 12월 9일 20시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 177, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: timed out, Timeout: 30s, Topology Description: <TopologyDescription id: 61b1e1b2e3efaa2215be1632, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.17.0.2:27017: timed out')>]>
