@@ -473,3 +473,440 @@ Traceback (most recent call last):
   File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
     (self._error_message(selector), timeout, self.description))
 pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: timed out, Timeout: 30s, Topology Description: <TopologyDescription id: 61b1e1b2e3efaa2215be1632, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.17.0.2:27017: timed out')>]>
+2021년 12월 9일 21시 0분
+5QYsfRHBrcMHGze6V_xCMkZ4uV7l6jsSFtsY4XPZNHjoYTH140RyLPblp-JE3i8UGlIw3wo9dRoAAAF9nfySAA
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 181, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 47, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 9일 22시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 9일 23시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 0시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 1시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 2시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 3시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 4시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 5시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 6시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 7시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 8시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 9시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'kakao_code_friends_owner.json'
+2021년 12월 10일 10시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 49, in kakao_to_friends_get_refreshtokens
+    with open("./kakao_code_friends_owner.json","r") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: './kakao_code_friends_owner.json'
+2021년 12월 10일 10시 5분
+friends_update success
+{'msg': 'this access token is already expired', 'code': -401}
+-----------message------------
+12월 10일 구미시의 
+최고온도 11도 
+최저온도 2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.10. 00시 기준)
+확진자 수는 7022명입니다.
+------------------------------
+성훈에게 알림 전송완료
+2021년 12월 10일 10시 9분
+friends_update success
+-----------message------------
+12월 10일 구미시의 
+최고온도 11도 
+최저온도 2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.10. 00시 기준)
+확진자 수는 7022명입니다.
+------------------------------
+성훈에게 알림 전송완료
+2021년 12월 10일 11시 0분
+friends_update success
+2021년 12월 10일 12시 0분
+friends_update success
+2021년 12월 10일 13시 0분
+friends_update success
+2021년 12월 10일 14시 0분
+friends_update success
+2021년 12월 10일 15시 0분
+friends_update success
+2021년 12월 10일 16시 0분
+friends_update success
+2021년 12월 10일 17시 0분
+friends_update success
+2021년 12월 10일 18시 0분
+friends_update success
+2021년 12월 10일 19시 0분
+friends_update success
+2021년 12월 10일 20시 0분
+friends_update success
+2021년 12월 10일 21시 0분
+friends_update success
+-----------message------------
+12월 10일 구미시의 
+최고온도 11도 
+최저온도 2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.10. 00시 기준)
+확진자 수는 7022명입니다.
+------------------------------
+제훈에게 알림 전송완료
+2021년 12월 10일 22시 0분
+friends_update success
+2021년 12월 10일 23시 0분
+friends_update success
+2021년 12월 11일 0시 0분
+friends_update success
+2021년 12월 11일 1시 0분
+friends_update success
+2021년 12월 11일 2시 0분
+friends_update success
+2021년 12월 11일 3시 0분
+friends_update success
+2021년 12월 11일 4시 0분
+friends_update success
+2021년 12월 11일 5시 0분
+friends_update success
+2021년 12월 11일 6시 0분
+friends_update success
+2021년 12월 11일 7시 0분
+friends_update success
+2021년 12월 11일 8시 0분
+friends_update success
+-----------message------------
+12월 11일 관악구의 
+최고온도 8도 
+최저온도 4도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.10. 00시 기준)
+확진자 수는 7022명입니다.
+------------------------------
+김민정에게 알림 전송완료
+2021년 12월 11일 9시 0분
+friends_update success
+-----------message------------
+12월 11일 화성시의 
+최고온도 8도 
+최저온도 3도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.10. 00시 기준)
+확진자 수는 7022명입니다.
+------------------------------
+준성에게 알림 전송완료
+-----------message------------
+12월 11일 구미시의
+------------------------------
+한지연에게 알림 전송완료
+2021년 12월 11일 10시 0분
+friends_update success
+-----------message------------
+12월 11일 구미시의 
+최고온도 11도 
+최저온도 4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.11. 00시 기준)
+확진자 수는 6977명입니다.
+------------------------------
+성훈에게 알림 전송완료
+2021년 12월 11일 11시 0분
+friends_update success
+2021년 12월 11일 12시 0분
+friends_update success
+2021년 12월 11일 13시 0분
+friends_update success
+2021년 12월 11일 14시 0분
+friends_update success
+2021년 12월 11일 15시 0분
+friends_update success
+2021년 12월 11일 16시 0분
+friends_update success
+2021년 12월 11일 17시 0분
+friends_update success
+2021년 12월 11일 18시 0분
+friends_update success
+2021년 12월 11일 19시 0분
+friends_update success
+2021년 12월 11일 20시 0분
+friends_update success
+2021년 12월 11일 21시 0분
+friends_update success
+2021년 12월 11일 22시 0분
+friends_update success
+2021년 12월 11일 23시 0분
+friends_update success
+2021년 12월 12일 0시 0분
+friends_update success
+2021년 12월 12일 1시 0분
+friends_update success
+2021년 12월 12일 2시 0분
+friends_update success
+2021년 12월 12일 3시 0분
+friends_update success
+2021년 12월 12일 4시 0분
+friends_update success
+2021년 12월 12일 5시 0분
+friends_update success
+2021년 12월 12일 6시 0분
+friends_update success
+2021년 12월 12일 7시 0분
+friends_update success
+2021년 12월 12일 8시 0분
+friends_update success
+-----------message------------
+12월 12일 관악구의 
+최고온도 5도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.11. 00시 기준)
+확진자 수는 6977명입니다.
+------------------------------
+김민정에게 알림 전송완료
+2021년 12월 12일 9시 0분
+friends_update success
+-----------message------------
+12월 12일 화성시의 
+최고온도 6도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 0%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.11. 00시 기준)
+확진자 수는 6977명입니다.
+------------------------------
+준성에게 알림 전송완료
+-----------message------------
+12월 12일 구미시의
+------------------------------
+한지연에게 알림 전송완료
+2021년 12월 12일 10시 0분
+friends_update success
+-----------message------------
+12월 12일 구미시의 
+최고온도 8도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.12. 00시 기준)
+확진자 수는 6689명입니다.
+------------------------------
+성훈에게 알림 전송완료
+2021년 12월 12일 11시 0분
+friends_update success
+2021년 12월 12일 12시 0분
+friends_update success
+2021년 12월 12일 13시 0분
+friends_update success
+2021년 12월 12일 14시 0분
+friends_update success
+2021년 12월 12일 15시 0분
+friends_update success
+2021년 12월 12일 16시 0분
+friends_update success
+2021년 12월 12일 17시 0분
+friends_update success
+2021년 12월 12일 18시 0분
+friends_update success
+2021년 12월 12일 19시 0분
+friends_update success
+2021년 12월 12일 20시 0분
+friends_update success
+2021년 12월 12일 21시 0분
+friends_update success
+2021년 12월 12일 22시 0분
+friends_update success
+2021년 12월 12일 23시 0분
+friends_update success
+2021년 12월 13일 0시 0분
+friends_update success
+2021년 12월 13일 1시 0분
+friends_update success
+2021년 12월 13일 2시 0분
+friends_update success
+2021년 12월 13일 3시 0분
+friends_update success
+2021년 12월 13일 4시 0분
+friends_update success
+2021년 12월 13일 5시 0분
+friends_update success
+2021년 12월 13일 6시 0분
+friends_update success
+2021년 12월 13일 7시 0분
+friends_update success
+-----------message------------
+12월 13일 이천시의 
+최고온도 2도 
+최저온도 -6도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.12. 00시 기준)
+확진자 수는 6689명입니다.
+------------------------------
+임낙균에게 알림 전송완료
+2021년 12월 13일 8시 0분
+friends_update success
+-----------message------------
+12월 13일 관악구의 
+최고온도 2도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.12. 00시 기준)
+확진자 수는 6689명입니다.
+------------------------------
+김민정에게 알림 전송완료
+2021년 12월 13일 9시 0분
+friends_update success
+-----------message------------
+12월 13일 화성시의 
+최고온도 2도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.12. 00시 기준)
+확진자 수는 6689명입니다.
+------------------------------
+준성에게 알림 전송완료
+-----------message------------
+12월 13일 구미시의
+------------------------------
+한지연에게 알림 전송완료
+2021년 12월 13일 10시 0분
+friends_update success
+-----------message------------
+12월 13일 구미시의 
+최고온도 4도 
+최저온도 -4도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.13. 00시 기준)
+확진자 수는 5817명입니다.
+------------------------------
+성훈에게 알림 전송완료
+2021년 12월 13일 11시 0분
+friends_update success
+2021년 12월 13일 12시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 167, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 113] No route to host, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6b732369b4032584d604d, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 113] No route to host')>]>
+2021년 12월 13일 13시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 167, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 113] No route to host, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6c5437ebc3f6e9e1e28eb, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 113] No route to host')>]>

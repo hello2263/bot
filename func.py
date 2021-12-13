@@ -2,7 +2,15 @@ from urllib.parse import urlencode, quote_plus
 from urllib.request import urlopen, Request
 from urllib import parse
 from datetime import datetime
+from pymongo import MongoClient
+from pymongo.cursor import CursorType
 import sys, json, requests, os
+
+host = "172.17.0.2"
+port = "27017"
+mongo = MongoClient(host, int(port), connect=False)
+bot_path_owner = '/home/ec2-user/bot/kakao_code_friends_owner.json'
+bot_path_refresh = '/home/ec2-user/bot/kakao_code_friends_refresh.json'
 
 def find_item(mongo, condition=None, db_name=None, collection_name=None):
     result = mongo[db_name][collection_name].find(condition, {"_id":False}).sort('date')
@@ -24,10 +32,6 @@ def delete_item_one(mongo, condition=None, db_name=None, collection_name=None):
     result = mongo[db_name][collection_name].delete_one(condition)
     return result
 
-
-
-
-
 def kakao_to_friends_get_ownertokens(code):
     url = 'https://kauth.kakao.com/oauth/token'
     authorize_code = code
@@ -39,12 +43,12 @@ def kakao_to_friends_get_ownertokens(code):
         }
     response = requests.post(url, data=data)
     tokens = response.json()
-    with open("kakao_code_friends_owner.json","w") as fp:
+    with open(bot_path_owner,"w") as fp:
         json.dump(tokens, fp)
     return str(tokens['refresh_token'])
 
 def kakao_to_friends_get_refreshtokens():
-    with open("kakao_code_friends_owner.json","r") as fp:
+    with open(bot_path_owner,"r") as fp:
         token_data = json.load(fp)
     refresh = token_data['refresh_token']
     url = "https://kauth.kakao.com/oauth/token"
@@ -56,12 +60,12 @@ def kakao_to_friends_get_refreshtokens():
     }
     response = requests.post(url, data=data)
     tokens = response.json()
-    with open("kakao_code_friends_refresh.json", "w") as fp:
+    with open(bot_path_refresh, "w") as fp:
         json.dump(tokens, fp)
     return tokens['access_token']
 
 def kakao_owner_token():
-    with open("kakao_code_friends_owner.json","r") as fp:
+    with open(bot_path_refresh,"r") as fp:
         tokens = json.load(fp)
     url="https://kapi.kakao.com/v1/user/access_token_info"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
@@ -69,7 +73,7 @@ def kakao_owner_token():
     return response.text
 
 def kakao_friends_token():
-    with open("./kakao_code_friends_friends.json","r") as fp:
+    with open("/home/ec2-user/bot/kakao_code_friends_friends.json","r") as fp:
         tokens = json.load(fp)
     url="https://kapi.kakao.com/v1/user/access_token_info"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
@@ -77,18 +81,15 @@ def kakao_friends_token():
     return response.text
 
 def kakao_friends_update():
-    with open("kakao_code_friends_owner.json","r") as fp:
+    with open(bot_path_refresh,"r") as fp:
         tokens = json.load(fp)
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
     friends_list = result.get("elements")
-    try:
-        for friend in friends_list:
-            func.update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
-        print("friends_update success")
-    except:
-        print('friends_update fail')
+    for friend in friends_list:
+        update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+    print("friends_update success")
 
 def nowtime():
     now = datetime.now()

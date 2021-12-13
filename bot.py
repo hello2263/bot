@@ -1,5 +1,4 @@
 #! /usr/bin/python
-
 from datetime import datetime
 from pymongo import MongoClient
 from pymongo.cursor import CursorType
@@ -51,7 +50,7 @@ def set_time(time):
     return user_time
 
 def kakao_friends_send(message, friend_uuid):
-    with open("/home/ec2-user/bot/kakao_code_friends_owner.json","r") as fp:
+    with open("/home/ec2-user/bot/kakao_code_friends_refresh.json","r") as fp:
         tokens = json.load(fp)
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
@@ -64,7 +63,7 @@ def kakao_friends_send(message, friend_uuid):
             "object_type":"text",
             "text":message,
             "link":{
-                "web_url":"www.naver.com"
+                "web_url":"http://3.35.252.82:5000/"
             }
         })
     }
@@ -88,8 +87,9 @@ def set_rain_data(local, date):
     rain = []
     for i in weather_db:
         rain.append(int(i['rain']))
-    am = max(rain[:12])
-    pm = max(rain[12:])
+    mid = int(len(rain) / 2)
+    am = max(rain[:mid])
+    pm = max(rain[mid:])
     return am, pm
     
 def set_message():
@@ -122,8 +122,7 @@ def send_message():
             user_uuid = j['uuid']
         flag = check_day(i['day'])
         if flag == 1:
-            if set_time(i['time']) == now.hour: 
-                # today = app1.nowtime()  
+            if set_time(i['time']) == now.hour:  
                 today = func.nowtime() 
                 temp_max, temp_min = set_temp_data(user_local, today[:8])
                 am, pm = set_rain_data(user_local, today[:8])
@@ -131,13 +130,6 @@ def send_message():
                 message = set_message()
                 kakao_friends_send(message, user_uuid)
                 print(j['name'] + "에게 알림 전송완료")
-
-
-#--------------------------------------------------------------------------------------------
-
-
-
-
 
 def get_dust(local):  
     CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty'
@@ -147,7 +139,6 @@ def get_dust(local):
         parse.quote_plus('stationName') : local,
         parse.quote_plus('dataTerm') : 'DAILY',
     })
-    
     response = requests.get(CallBackURL+params)
     dust = (CallBackURL+params).find(key)
     if dust <= 30:
@@ -162,7 +153,6 @@ def get_dust(local):
         dust_state = '매우나쁨'
     return dust_state
 
-
 if __name__ == '__main__':
     host = "172.17.0.2"
     port = "27017"
@@ -176,7 +166,6 @@ if __name__ == '__main__':
     data = func.find_item(mongo, None, "alarm", "code")
     for i in data:
         code = i['code']
-    print(code)
     # func.kakao_to_friends_get_ownertokens(code)
     func.kakao_to_friends_get_refreshtokens()
     send_message()
