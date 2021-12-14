@@ -910,3 +910,1004 @@ Traceback (most recent call last):
   File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
     (self._error_message(selector), timeout, self.description))
 pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 113] No route to host, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6c5437ebc3f6e9e1e28eb, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 113] No route to host')>]>
+2021년 12월 13일 14시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 167, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6d3538aae7420c44958b2, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 15시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 167, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6e164d6645f32c9430218, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 16시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6ef725e70ce983799e451, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 17시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b6fd82bbcf0de1f24448e0, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 18시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b70b92992fcbe5dec3d866, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 19시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b719a1e9890be3fad17953, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 20시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b727b272b715cb68bd315c, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 21시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b735c16aedb9567480e85d, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 22시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b743d140b5bbb111ed6b47, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 13일 23시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b751e161cb10d17a5d689d, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 0시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b75ff25e8807475570181c, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 1시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b76e0314c709dc840d55ea, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 2시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b77c13c37fa30c0baf0247, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 3시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b78a227fb7ffad41a55a35, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 4시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b79831d46c6d456b2459ef, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 5시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7a64248492ea5417a37e2, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 6시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7b452e9328510391732fe, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 7시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7c2628171cbe7d61cfb84, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 8시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7d0712b673fe71570abeb, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 9시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7de81dc20de9cd3c42dd4, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 10시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7ec935e364719d597b459, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 11시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b7faa1a343980103026015, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 12시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b808b2c6cdb2c0f976ba5b, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 13시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b816c2bd2dbb49927381cf, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 14시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b824d26bff72f884f67bb4, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 15시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b832e46c926dda4fb4a608, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 16시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b840f2a7661886749336f1, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 17시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b84f0160e888f1bac33287, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 18시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b85d12207a968ab0d8459e, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 19시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b86b23c473eb74ac9aa030, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 20시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 115, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 91, in kakao_friends_update
+    update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
+  File "/home/ec2-user/bot/func.py", line 24, in update_item_one
+    result = mongo[db_name][collection_name].update_one(filter=condition, update=update_value, upsert=True)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 1033, in update_one
+    hint=hint, session=session),
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/collection.py", line 879, in _update_retryable
+    _update, session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1551, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/lib64/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1948, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.2:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 61b87932d50f42d2120032f5, topology_type: Single, servers: [<ServerDescription ('172.17.0.2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.2:27017: [Errno 111] Connection refused')>]>
+2021년 12월 14일 21시 0분
+friends_update success

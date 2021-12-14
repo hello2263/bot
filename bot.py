@@ -154,7 +154,7 @@ def get_dust(local):
     return dust_state
 
 if __name__ == '__main__':
-    host = "172.17.0.2"
+    host = "172.17.0.4"
     port = "27017"
     func.nowtime()
     now = datetime.now()
