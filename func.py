@@ -42,9 +42,11 @@ def kakao_to_friends_get_ownertokens(code):
         'code': authorize_code,
         }
     response = requests.post(url, data=data)
+    print(response)
     tokens = response.json()
     with open(bot_path_owner,"w") as fp:
         json.dump(tokens, fp)
+    # https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_friend_code&response_type=code&scope=talk_message,friends
     return str(tokens['refresh_token'])
 
 def kakao_to_friends_get_refreshtokens():

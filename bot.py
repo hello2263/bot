@@ -71,6 +71,7 @@ def kakao_friends_send(message, friend_uuid):
     print(message)
     print('------------------------------')
     response = requests.post(send_url, headers=headers, data=data)
+    print(response.text)
     response.status_code
         
 def set_temp_data(local, date):
@@ -159,17 +160,16 @@ if __name__ == '__main__':
     func.nowtime()
     now = datetime.now()
     mongo = MongoClient(host, int(port))
+    print('################start#############')
     print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
     # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
-    # response = requests.get(url = url)
-    # print(response)
     data = func.find_item(mongo, None, "alarm", "code")
     for i in data:
         code = i['code']
     # func.kakao_to_friends_get_ownertokens(code)
     func.kakao_to_friends_get_refreshtokens()
     send_message()
-    
+    # func.kakao_friends_update()    
     
     
     
