@@ -42,7 +42,6 @@ def kakao_to_friends_get_ownertokens(code):
         'code': authorize_code,
         }
     response = requests.post(url, data=data)
-    print(response)
     tokens = response.json()
     with open(bot_path_owner,"w") as fp:
         json.dump(tokens, fp)
@@ -102,6 +101,7 @@ def kakao_friends_update():
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
+    print(result)
     friends_list = result.get("elements")
     for friend in friends_list:
         update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")

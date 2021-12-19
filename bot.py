@@ -167,7 +167,7 @@ if __name__ == '__main__':
     for i in data:
         code = i['code']
     # func.kakao_to_friends_get_ownertokens(code)
-    # func.kakao_to_friends_get_refreshtokens()
+    func.kakao_to_friends_get_refreshtokens()
     send_message()
     # func.kakao_friends_update()    
     

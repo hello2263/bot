@@ -2338,3 +2338,401 @@ friends_update success
 ################start#############
 2021년 12월 17일 19시 0분
 friends_update success
+################start#############
+2021년 12월 17일 20시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 17일 21시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 17일 22시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 17일 23시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 0시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 1시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 2시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 3시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 4시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 5시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 6시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 7시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 8시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 9시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 10시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 11시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 12시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 107, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 13시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 107, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 14시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 107, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 15시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 107, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 16시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 107, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 18일 17시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 18시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 19시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 20시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 21시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 22시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '송진욱', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2029185117, 'uuid': 'nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmKjaneBGQ/rCCf5LInFcW2L5peKMCKW0/rc35o5_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}], 'total_count': 12, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+friends_update success
+################start#############
+2021년 12월 18일 23시 0분
+{'msg': 'this access token is already expired', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 0시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 1시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 2시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 3시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 4시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 5시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 6시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 7시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 8시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 9시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 10시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 11시 0분
+{'msg': 'this access token does not exist', 'code': -401}
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 171, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 116, in send_message
+    func.kakao_friends_update()
+  File "/home/ec2-user/bot/func.py", line 106, in kakao_friends_update
+    for friend in friends_list:
+TypeError: 'NoneType' object is not iterable
+################start#############
+2021년 12월 19일 11시 33분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmJ4WJvj4x/tkf4WfjR3QVCmInG8NakR0/vy0m44_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmI1qkArui/wuGV0FrtwpLBLVb9kmXTC0/3beysu_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL79l7N6i/sZJ4S8kSxKbxmQHmOxaltk/4r27st_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmCvB0rX5f/pWrPbB5I354RWR8260ECf1/lkgg9r_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+friends_update success
+-----------message------------
+12월 19일 구미시의 
+최고온도 5도 
+최저온도 -1도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (12.19. 00시 기준)
+확진자 수는 6236명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
