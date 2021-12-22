@@ -55,6 +55,7 @@ def kakao_friends_send(message, friend_uuid):
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
+    print(result)
     friends_list = result.get("elements")
     send_url= "https://kapi.kakao.com/v1/api/talk/friends/message/default/send"
     data={

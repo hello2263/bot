@@ -101,11 +101,36 @@ def kakao_friends_update():
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
-    print(result)
+    # print(result)
     friends_list = result.get("elements")
     for friend in friends_list:
         update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
     print("friends_update success")
+
+def kakao_to_friends_get_friendrefreshtokens():
+    with open("kakao_code_friends_friends.json","r") as fp:
+        token_data = json.load(fp)
+    refresh = token_data['refresh_token']
+    url = "https://kauth.kakao.com/oauth/token"
+    rest_api_key = '91d3b37e4651a9c3ab0216abfe877a50'
+    data = {
+        "grant_type": "refresh_token",
+        "client_id": f"{rest_api_key}",
+        "refresh_token": refresh
+    }
+    response = requests.post(url, data=data)
+    tokens = response.json()
+    with open("kakao_code_friends_friendrefresh.json", "w") as fp:
+        json.dump(tokens, fp)
+    return tokens['access_token']
+
+def kakao_friend_get_data():
+    with open("kakao_code_friends_friends.json","r") as fp:
+        tokens = json.load(fp)
+    url = 'https://kapi.kakao.com/v2/user/me'
+    headers={"Authorization" : "Bearer " + tokens["access_token"]}
+    response = requests.post(url, headers=headers)
+    return response.text
 
 def nowtime():
     now = datetime.now()
