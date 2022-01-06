@@ -58,6 +58,7 @@ def kakao_to_friends_get_friendstokens(code):
         'code': authorize_code,
         }
     response = requests.post(url, data=data)
+    # print('code : ', response)
     tokens = response.json()
     with open("kakao_code_friends_friends.json","w") as fp:
         json.dump(tokens, fp)
@@ -93,6 +94,7 @@ def kakao_friends_token():
     url="https://kapi.kakao.com/v1/user/access_token_info"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     response = requests.post(url, headers=headers)
+    # print('token: ', response)
     return response.text
 
 def kakao_friends_update():
@@ -105,7 +107,7 @@ def kakao_friends_update():
     friends_list = result.get("elements")
     for friend in friends_list:
         update_item_one(mongo, {"uuid":str(friend['uuid'])}, {"$set": {"id":str(friend['id']), "name":str(friend['profile_nickname']), "image":str(friend['profile_thumbnail_image'])}}, "alarm", "kakao")
-    print("friends_update success")
+    # print("friends_update success")
 
 def kakao_to_friends_get_friendrefreshtokens():
     with open("kakao_code_friends_friends.json","r") as fp:
@@ -130,6 +132,7 @@ def kakao_friend_get_data():
     url = 'https://kapi.kakao.com/v2/user/me'
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     response = requests.post(url, headers=headers)
+    # print(response)
     return response.text
 
 def nowtime():
