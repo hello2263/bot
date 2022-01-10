@@ -134,43 +134,52 @@ def send_message():
                 print(j['name'] + "에게 알림 전송완료")
 
 def get_dust(local):  
-    CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty'
+    CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty'
     key = 'XIjRFoewvUDp4EDhRpATADoatwElkiQ%2F1J0tDooGjBTKStjRtuW3Zu89iE9cBsK%2Bz299IJwkbaE%2F%2F7SzcVo2yA%3D%3D'
     params = f'?{parse.quote_plus("ServiceKey")}={key}&'+parse.urlencode({
-        parse.quote_plus('returnType') : 'xml',
+        parse.quote_plus('returnType') : 'json',
+        parse.quote_plus('numOfRows') : '1',
         parse.quote_plus('stationName') : local,
         parse.quote_plus('dataTerm') : 'DAILY',
+        parse.quote_plus('ver') : '1.0'
     })
-    response = requests.get(CallBackURL+params)
-    dust = (CallBackURL+params).find(key)
-    if dust <= 30:
-        dust_state = '아주 좋음'
-    elif dust <= 60:
+    request = Request(CallBackURL + params)
+    response_body = urlopen(request).read() 
+    data = json.loads(response_body)
+    dust = int(data['response']['body']['items'][0]['pm10Value'])
+    if dust <= 19:
+        dust_state = '매우 좋음'
+    elif dust <= 29:
         dust_state = '좋음'
-    elif dust <= 90:
+    elif dust <= 39:
         dust_state = '보통'
-    elif dust <= 120:
+    elif dust <= 69:
         dust_state = '나쁨'
+    elif dust <= 89:
+        dust_state = '매우 나쁨'
     else:
-        dust_state = '매우나쁨'
-    return dust_state
+        dust_state = '최악임'
+    return dust_state, dust
+
+# if __name__ == '__main__':
+#     host = "172.17.0.4"
+#     port = "27017"
+#     func.nowtime()
+#     now = datetime.now()
+#     mongo = MongoClient(host, int(port))
+#     print('################start#############')
+#     print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
+#     # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
+#     data = func.find_item(mongo, None, "alarm", "code")
+#     for i in data:
+#         code = i['code']
+#     # func.kakao_to_friends_get_ownertokens(code)
+#     func.kakao_to_friends_get_refreshtokens()
+#     send_message()
+#     # func.kakao_friends_update()    
 
 if __name__ == '__main__':
-    host = "172.17.0.4"
-    port = "27017"
-    func.nowtime()
-    now = datetime.now()
-    mongo = MongoClient(host, int(port))
-    print('################start#############')
-    print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
-    # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
-    data = func.find_item(mongo, None, "alarm", "code")
-    for i in data:
-        code = i['code']
-    # func.kakao_to_friends_get_ownertokens(code)
-    func.kakao_to_friends_get_refreshtokens()
-    send_message()
-    # func.kakao_friends_update()    
+    print(get_dust('관악구'))
     
     
     

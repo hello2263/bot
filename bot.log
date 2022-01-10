@@ -5808,3 +5808,577 @@ friends_update success
 ################start#############
 2022년 1월 6일 21시 0분
 friends_update success
+################start#############
+2022년 1월 6일 22시 0분
+################start#############
+2022년 1월 6일 23시 0분
+################start#############
+2022년 1월 7일 0시 0분
+################start#############
+2022년 1월 7일 1시 0분
+################start#############
+2022년 1월 7일 2시 0분
+################start#############
+2022년 1월 7일 3시 0분
+################start#############
+2022년 1월 7일 4시 0분
+################start#############
+2022년 1월 7일 5시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 부천시의 
+최고온도 2도 
+최저온도 -5도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.06. 00시 기준)
+확진자 수는 4126명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+################start#############
+2022년 1월 7일 6시 0분
+################start#############
+2022년 1월 7일 7시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 화성시의 
+최고온도 3도 
+최저온도 -6도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.06. 00시 기준)
+확진자 수는 4126명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+################start#############
+2022년 1월 7일 8시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 이천시의 
+최고온도 4도 
+최저온도 -7도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.06. 00시 기준)
+확진자 수는 4126명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 평택시의 
+최고온도 4도 
+최저온도 -6도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.06. 00시 기준)
+확진자 수는 4126명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+################start#############
+2022년 1월 7일 9시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 구미시의 
+최고온도 7도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.06. 00시 기준)
+확진자 수는 4126명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+################start#############
+2022년 1월 7일 10시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 구미시의 
+최고온도 7도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 20%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 구미시의 
+최고온도 7도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+################start#############
+2022년 1월 7일 11시 0분
+################start#############
+2022년 1월 7일 12시 0분
+################start#############
+2022년 1월 7일 13시 0분
+################start#############
+2022년 1월 7일 14시 0분
+################start#############
+2022년 1월 7일 15시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '김민정', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOu2LKOkD/jv01UPuvxS0gszYm7XALh1/5q43zx_110x110_c.jpg', 'allowed_msg': True, 'id': 1938966879, 'uuid': 'nq-dqZiunqibt4S9ibqPuo6_k6WRpJOil_k', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}], 'total_count': 11, 'after_url': 'https://kapi.kakao.com/v1/api/talk/friends?offset=10&limit=10&order=asc', 'favorite_count': 0}
+-----------message------------
+01월 07일 용인시의 
+최고온도 3도 
+최저온도 -6도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+################start#############
+2022년 1월 7일 16시 0분
+################start#############
+2022년 1월 7일 17시 0분
+################start#############
+2022년 1월 7일 18시 0분
+################start#############
+2022년 1월 7일 19시 0분
+################start#############
+2022년 1월 7일 20시 0분
+################start#############
+2022년 1월 7일 21시 0분
+################start#############
+2022년 1월 7일 22시 0분
+################start#############
+2022년 1월 7일 23시 0분
+################start#############
+2022년 1월 8일 0시 0분
+################start#############
+2022년 1월 8일 1시 0분
+################start#############
+2022년 1월 8일 2시 0분
+################start#############
+2022년 1월 8일 3시 0분
+################start#############
+2022년 1월 8일 4시 0분
+################start#############
+2022년 1월 8일 5시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 부천시의 
+최고온도 5도 
+최저온도 -4도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+################start#############
+2022년 1월 8일 6시 0분
+################start#############
+2022년 1월 8일 7시 0분
+################start#############
+2022년 1월 8일 8시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 평택시의 
+최고온도 6도 
+최저온도 -5도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+################start#############
+2022년 1월 8일 9시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.07. 00시 기준)
+확진자 수는 3717명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+################start#############
+2022년 1월 8일 10시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+################start#############
+2022년 1월 8일 11시 0분
+################start#############
+2022년 1월 8일 12시 0분
+################start#############
+2022년 1월 8일 13시 0분
+################start#############
+2022년 1월 8일 14시 0분
+################start#############
+2022년 1월 8일 15시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 08일 용인시의 
+최고온도 4도 
+최저온도 -5도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+################start#############
+2022년 1월 8일 16시 0분
+################start#############
+2022년 1월 8일 17시 0분
+################start#############
+2022년 1월 8일 18시 0분
+################start#############
+2022년 1월 8일 19시 0분
+################start#############
+2022년 1월 8일 20시 0분
+################start#############
+2022년 1월 8일 21시 0분
+################start#############
+2022년 1월 8일 22시 0분
+################start#############
+2022년 1월 8일 23시 0분
+################start#############
+2022년 1월 9일 0시 0분
+################start#############
+2022년 1월 9일 1시 0분
+################start#############
+2022년 1월 9일 2시 0분
+################start#############
+2022년 1월 9일 3시 0분
+################start#############
+2022년 1월 9일 4시 0분
+################start#############
+2022년 1월 9일 5시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 부천시의 
+최고온도 3도 
+최저온도 -3도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+################start#############
+2022년 1월 9일 6시 0분
+################start#############
+2022년 1월 9일 7시 0분
+################start#############
+2022년 1월 9일 8시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 평택시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+################start#############
+2022년 1월 9일 9시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 구미시의 
+최고온도 7도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.08. 00시 기준)
+확진자 수는 3510명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+################start#############
+2022년 1월 9일 10시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 구미시의 
+최고온도 7도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 구미시의 
+최고온도 7도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+################start#############
+2022년 1월 9일 11시 0분
+################start#############
+2022년 1월 9일 12시 0분
+################start#############
+2022년 1월 9일 13시 0분
+################start#############
+2022년 1월 9일 14시 0분
+################start#############
+2022년 1월 9일 15시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmNY4DoXEY/ExyZqaHcQCQXXbBKxkaPa1/9lhi0x_110x110_c.jpg', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 09일 용인시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+################start#############
+2022년 1월 9일 16시 0분
+################start#############
+2022년 1월 9일 17시 0분
+################start#############
+2022년 1월 9일 18시 0분
+################start#############
+2022년 1월 9일 19시 0분
+################start#############
+2022년 1월 9일 20시 0분
+################start#############
+2022년 1월 9일 21시 0분
+################start#############
+2022년 1월 9일 22시 0분
+################start#############
+2022년 1월 9일 23시 0분
+################start#############
+2022년 1월 10일 0시 0분
+################start#############
+2022년 1월 10일 1시 0분
+################start#############
+2022년 1월 10일 2시 0분
+################start#############
+2022년 1월 10일 3시 0분
+################start#############
+2022년 1월 10일 4시 0분
+################start#############
+2022년 1월 10일 5시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 부천시의 
+최고온도 3도 
+최저온도 -3도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+################start#############
+2022년 1월 10일 6시 0분
+################start#############
+2022년 1월 10일 7시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 화성시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+################start#############
+2022년 1월 10일 8시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 이천시의 
+최고온도 5도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 평택시의 
+최고온도 5도 
+최저온도 -4도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+################start#############
+2022년 1월 10일 9시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 구미시의 
+최고온도 8도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.09. 00시 기준)
+확진자 수는 3376명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+################start#############
+2022년 1월 10일 10시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 구미시의 
+최고온도 8도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.10. 00시 기준)
+확진자 수는 3007명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 10일 구미시의 
+최고온도 8도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.10. 00시 기준)
+확진자 수는 3007명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+('보통', 88)
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL_CODE</resultMsg>
+  </header>
+  <body>
+    <items>
+      <item>
+        <so2Grade>1</so2Grade>
+        <coFlag/>
+        <khaiValue>269</khaiValue>
+        <so2Value>0.004</so2Value>
+        <coValue>1.5</coValue>
+        <pm25Flag/>
+        <pm10Flag/>
+        <pm10Value>101</pm10Value>
+        <o3Grade>1</o3Grade>
+        <khaiGrade>4</khaiGrade>
+        <pm25Value>87</pm25Value>
+        <no2Flag/>
+        <no2Grade>3</no2Grade>
+        <o3Flag/>
+        <pm25Grade>3</pm25Grade>
+        <so2Flag/>
+        <dataTime>2022-01-10 11:00</dataTime>
+        <coGrade>1</coGrade>
+        <no2Value>0.067</no2Value>
+        <pm10Grade>2</pm10Grade>
+        <o3Value>0.006</o3Value>
+      </item>
+    </items>
+    <numOfRows>1</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>22</totalCount>
+  </body>
+</response>
+('매우 좋음', -1)
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL_CODE</resultMsg>
+  </header>
+  <body>
+    <items>
+      <item>
+        <so2Grade>1</so2Grade>
+        <coFlag/>
+        <khaiValue>223</khaiValue>
+        <so2Value>0.004</so2Value>
+        <coValue>1.1</coValue>
+        <pm25Flag/>
+        <pm10Flag/>
+        <pm10Value>94</pm10Value>
+        <o3Grade>1</o3Grade>
+        <khaiGrade>3</khaiGrade>
+        <pm25Value>80</pm25Value>
+        <no2Flag/>
+        <no2Grade>2</no2Grade>
+        <o3Flag/>
+        <pm25Grade>3</pm25Grade>
+        <so2Flag/>
+        <dataTime>2022-01-10 12:00</dataTime>
+        <coGrade>1</coGrade>
+        <no2Value>0.052</no2Value>
+        <pm10Grade>2</pm10Grade>
+        <o3Value>0.014</o3Value>
+      </item>
+    </items>
+    <numOfRows>1</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>22</totalCount>
+  </body>
+</response>
+('매우 좋음', -1)
