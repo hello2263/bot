@@ -55,7 +55,6 @@ def kakao_friends_send(message, friend_uuid):
     friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
     headers={"Authorization" : "Bearer " + tokens["access_token"]}
     result = json.loads(requests.get(friend_url, headers=headers).text)
-    print(result)
     friends_list = result.get("elements")
     send_url= "https://kapi.kakao.com/v1/api/talk/friends/message/default/send"
     data={
@@ -128,38 +127,85 @@ def send_message():
                 today = func.nowtime() 
                 temp_max, temp_min = set_temp_data(user_local, today[:8])
                 am, pm = set_rain_data(user_local, today[:8])
-                user_dust = get_dust(user_local)
+                user_dust, dust_n = get_dust(user_local)
                 message = set_message()
                 kakao_friends_send(message, user_uuid)
                 print(j['name'] + "에게 알림 전송완료")
 
 def get_dust(local):  
-    CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty'
-    key = 'XIjRFoewvUDp4EDhRpATADoatwElkiQ%2F1J0tDooGjBTKStjRtuW3Zu89iE9cBsK%2Bz299IJwkbaE%2F%2F7SzcVo2yA%3D%3D'
-    params = f'?{parse.quote_plus("ServiceKey")}={key}&'+parse.urlencode({
-        parse.quote_plus('returnType') : 'json',
-        parse.quote_plus('numOfRows') : '1',
-        parse.quote_plus('stationName') : local,
-        parse.quote_plus('dataTerm') : 'DAILY',
-        parse.quote_plus('ver') : '1.0'
-    })
-    request = Request(CallBackURL + params)
-    response_body = urlopen(request).read() 
-    data = json.loads(response_body)
-    dust = int(data['response']['body']['items'][0]['pm10Value'])
-    if dust <= 19:
-        dust_state = '매우 좋음'
-    elif dust <= 29:
-        dust_state = '좋음'
-    elif dust <= 39:
-        dust_state = '보통'
-    elif dust <= 69:
-        dust_state = '나쁨'
-    elif dust <= 89:
-        dust_state = '매우 나쁨'
-    else:
-        dust_state = '최악임'
-    return dust_state, dust
+    station = select_dust_area(local)
+    try:
+        CallBackURL = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty'
+        key = 'XIjRFoewvUDp4EDhRpATADoatwElkiQ%2F1J0tDooGjBTKStjRtuW3Zu89iE9cBsK%2Bz299IJwkbaE%2F%2F7SzcVo2yA%3D%3D'
+        params = f'?{parse.quote_plus("ServiceKey")}={key}&'+parse.urlencode({
+            parse.quote_plus('returnType') : 'json',
+            parse.quote_plus('numOfRows') : '1',
+            parse.quote_plus('stationName') : station,
+            parse.quote_plus('dataTerm') : 'DAILY',
+            parse.quote_plus('ver') : '1.0'
+        })
+        request = Request(CallBackURL + params)
+        response_body = urlopen(request).read() 
+        data = json.loads(response_body)
+        dust = int(data['response']['body']['items'][0]['pm10Value'])
+        if dust <= 19:
+            dust_state = '매우 좋음'
+        elif dust <= 29:
+            dust_state = '좋음'
+        elif dust <= 39:
+            dust_state = '보통'
+        elif dust <= 69:
+            dust_state = '나쁨'
+        elif dust <= 89:
+            dust_state = '매우 나쁨'
+        else:
+            dust_state = '최악임'
+        return dust_state, dust
+    except:
+        return '점검중', 0
+
+def select_dust_area(local):
+    user_station = func.find_item(mongo, {"city":local}, "alarm", "local")
+    for j in user_station:
+            station = j['dust_area']
+    return station
+
+def read_log():
+    log = open('bot.log', 'rt')
+    line_log = []
+    loglines = log.readlines()
+    # print(len(loglines))
+    loglines = loglines[-100:]
+    for line in loglines:
+        line_log.append(line)
+    log.close()
+    # print(line_log)
+    func.delete_item_many(mongo, {}, "alarm", "log")
+    for i in line_log:
+        func.insert_item_one(mongo, {'log':str(i)}, 'alarm', 'log')
+    print('readed log')
+
+
+
+if __name__ == '__main__':
+    host = "172.17.0.4"
+    port = "27017"
+    func.nowtime()
+    now = datetime.now()
+    mongo = MongoClient(host, int(port))
+    print('')
+    print('')
+    print('################start################')
+    print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
+    # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
+    data = func.find_item(mongo, None, "alarm", "code")
+    for i in data:
+        code = i['code']
+    # func.kakao_to_friends_get_ownertokens(code)
+    func.kakao_to_friends_get_refreshtokens()
+    send_message()
+    read_log()
+    # func.kakao_friends_update()    
 
 # if __name__ == '__main__':
 #     host = "172.17.0.4"
@@ -167,19 +213,9 @@ def get_dust(local):
 #     func.nowtime()
 #     now = datetime.now()
 #     mongo = MongoClient(host, int(port))
-#     print('################start#############')
-#     print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
-#     # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
-#     data = func.find_item(mongo, None, "alarm", "code")
-#     for i in data:
-#         code = i['code']
-#     # func.kakao_to_friends_get_ownertokens(code)
-#     func.kakao_to_friends_get_refreshtokens()
-#     send_message()
-#     # func.kakao_friends_update()    
+#     read_log()
 
-if __name__ == '__main__':
-    print(get_dust('관악구'))
+    
     
     
     

@@ -6382,3 +6382,163 @@ friends_update success
   </body>
 </response>
 ('매우 좋음', -1)
+('최악임', 90)
+('매우 나쁨', 81)
+('최악임', 96)
+('최악임', 108)
+('매우 나쁨', 79)
+('나쁨', 64)
+('나쁨', 67)
+('보통', 37)
+('좋음', 22)
+('좋음', 27)
+('보통', 37)
+('나쁨', 42)
+('나쁨', 42)
+('나쁨', 45)
+('나쁨', 45)
+('보통', 38)
+('보통', 33)
+('보통', 31)
+('보통', 31)
+('좋음', 25)
+################start#############
+2022년 1월 11일 10시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 178, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 131, in send_message
+    user_dust = get_dust(user_local)
+  File "/home/ec2-user/bot/bot.py", line 149, in get_dust
+    dust = int(data['response']['body']['items'][0]['pm10Value'])
+IndexError: list index out of range
+################start#############
+2022년 1월 11일 11시 0분
+################start#############
+2022년 1월 11일 12시 0분
+################start#############
+2022년 1월 11일 13시 0분
+################start#############
+2022년 1월 11일 14시 0분
+################start#############
+2022년 1월 11일 15시 0분
+################start#############
+2022년 1월 11일 16시 0분
+################start#############
+2022년 1월 11일 17시 0분
+################start#############
+2022년 1월 11일 18시 0분
+################start#############
+2022년 1월 11일 19시 0분
+################start#############
+2022년 1월 11일 20시 0분
+################start#############
+2022년 1월 11일 21시 0분
+################start#############
+2022년 1월 11일 22시 0분
+################start#############
+2022년 1월 11일 23시 0분
+################start#############
+2022년 1월 12일 0시 0분
+################start#############
+2022년 1월 12일 1시 0분
+################start#############
+2022년 1월 12일 2시 0분
+################start#############
+2022년 1월 12일 3시 0분
+################start#############
+2022년 1월 12일 4시 0분
+################start#############
+2022년 1월 12일 5시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 178, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 131, in send_message
+    user_dust = get_dust(user_local)
+  File "/home/ec2-user/bot/bot.py", line 149, in get_dust
+    dust = int(data['response']['body']['items'][0]['pm10Value'])
+IndexError: list index out of range
+################start#############
+2022년 1월 12일 6시 0분
+################start#############
+2022년 1월 12일 7시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 178, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 131, in send_message
+    user_dust = get_dust(user_local)
+  File "/home/ec2-user/bot/bot.py", line 149, in get_dust
+    dust = int(data['response']['body']['items'][0]['pm10Value'])
+IndexError: list index out of range
+################start#############
+2022년 1월 12일 8시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 178, in <module>
+    send_message()
+  File "/home/ec2-user/bot/bot.py", line 131, in send_message
+    user_dust = get_dust(user_local)
+  File "/home/ec2-user/bot/bot.py", line 149, in get_dust
+    dust = int(data['response']['body']['items'][0]['pm10Value'])
+IndexError: list index out of range
+################start#############
+2022년 1월 12일 9시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 12일 구미시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.11. 00시 기준)
+확진자 수는 3097명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+################start#############
+2022년 1월 12일 10시 0분
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 12일 구미시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.12. 00시 기준)
+확진자 수는 4388명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+{'elements': [{'profile_nickname': '김동옥', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmHuzcqEaw/mtLour2L0JohkY5w4BfAmk/pfdj1d_110x110_c.jpg', 'allowed_msg': False, 'id': 1935959352, 'uuid': 'nquYqpmpn6qGt4W8hL2IuIu7l6GVoJemk_Q', 'favorite': False}, {'profile_nickname': '문제훈', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 2020099980, 'uuid': 'nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4', 'favorite': False}, {'profile_nickname': '성훈', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlLMBKRg9D/1rl4kcgZPtfZqFKUx2HWKK/uf22sk_110x110_c.jpg', 'allowed_msg': True, 'id': 2021959827, 'uuid': 'nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI', 'favorite': False}, {'profile_nickname': '연아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wlrqND7IPO/bcxzLSEGjgIcmAYxkKyf41/k34oui_110x110_c.jpg', 'allowed_msg': True, 'id': 1949214912, 'uuid': 'nq2ao5StmquatoW1jLqDsJyqnqucrZj4', 'favorite': False}, {'profile_nickname': '이정은', 'profile_thumbnail_image': '', 'allowed_msg': True, 'id': 1940166537, 'uuid': 'nq2VopSjlq6YtIawhbaOv42_jaGXo5ahkKXM', 'favorite': False}, {'profile_nickname': '임낙균', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmL8cQ6UrC/IzvfdYHwYkB8VbCTKmWPl0/cx7ehb_110x110_c.jpg', 'allowed_msg': True, 'id': 2019142708, 'uuid': 'nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4', 'favorite': False}, {'profile_nickname': '준성', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmyJX0iy6M/Z1oCM729ciY6Cr3trba2yk/pib55a_110x110_c.jpg', 'allowed_msg': True, 'id': 1944338527, 'uuid': 'nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE', 'favorite': False}, {'profile_nickname': '한지연', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmN3kM1pZZ/KYPOgCS2N1QipoPbFEvpYk/bn0irp_110x110_c.jpg', 'allowed_msg': True, 'id': 2026168174, 'uuid': 'nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c', 'favorite': False}, {'profile_nickname': '황선아', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmOjjGWOsV/3ap0R5KggkPDH7a0NsrB90/r9o2q6_110x110_c.jpg', 'allowed_msg': True, 'id': 1938952599, 'uuid': 'nqqbrZSjlqKOvI29hbeBsoKumKyZrp-qzg', 'favorite': False}, {'profile_nickname': '황선희', 'profile_thumbnail_image': 'https://p.kakaocdn.net/th/talkp/wmnacH0dJq/Ibqkh7hKx1Vg7Wwx5gn6Hk/actoow_110x110_c.jpg', 'allowed_msg': True, 'id': 1936315507, 'uuid': 'nqybr56pkKGUuIm-h7SDsIGyhKieqp-omazJ', 'favorite': False}], 'total_count': 10, 'after_url': None, 'favorite_count': 0}
+-----------message------------
+01월 12일 구미시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.12. 00시 기준)
+확진자 수는 4388명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+################start#############
+2022년 1월 12일 11시 0분
+################start#############
+2022년 1월 12일 12시 0분
+################start#############
+2022년 1월 12일 13시 0분
+################start#############
+2022년 1월 12일 14시 0분
+################start#############
+2022년 1월 12일 15시 0분
+################start#############
+2022년 1월 12일 16시 0분
+################start#############
+2022년 1월 12일 17시 0분
+{'response': {'body': {'totalCount': 22, 'items': [{'so2Grade': '1', 'coFlag': None, 'khaiValue': '53', 'so2Value': '0.003', 'coValue': '0.4', 'pm25Flag': None, 'pm10Flag': None, 'pm10Value': '23', 'o3Grade': '2', 'khaiGrade': '2', 'pm25Value': '9', 'no2Flag': None, 'no2Grade': '1', 'o3Flag': None, 'pm25Grade': '1', 'so2Flag': None, 'dataTime': '2022-01-12 17:00', 'coGrade': '1', 'no2Value': '0.008', 'pm10Grade': '2', 'o3Value': '0.034'}], 'pageNo': 1, 'numOfRows': 1}, 'header': {'resultMsg': 'NORMAL_CODE', 'resultCode': '00'}}}
+('좋음', 23)
+{'response': {'body': {'totalCount': 22, 'items': [{'so2Grade': '1', 'coFlag': None, 'khaiValue': '51', 'so2Value': '0.003', 'coValue': '0.4', 'pm25Flag': None, 'pm10Flag': None, 'pm10Value': '23', 'o3Grade': '1', 'khaiGrade': '2', 'pm25Value': '6', 'no2Flag': None, 'no2Grade': '1', 'o3Flag': None, 'pm25Grade': '1', 'so2Flag': None, 'dataTime': '2022-01-12 18:00', 'coGrade': '1', 'no2Value': '0.014', 'pm10Grade': '2', 'o3Value': '0.030'}], 'pageNo': 1, 'numOfRows': 1}, 'header': {'resultMsg': 'NORMAL_CODE', 'resultCode': '00'}}}
+('좋음', 23)
+################start#############
+2022년 1월 12일 20시 0분
