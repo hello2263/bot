@@ -67,6 +67,8 @@ def kakao_friends_send(message, friend_uuid):
             }
         })
     }
+    print('')
+    print('')
     print('-----------message------------')
     print(message)
     print('------------------------------')
@@ -170,20 +172,20 @@ def select_dust_area(local):
             station = j['dust_area']
     return station
 
-def read_log():
-    log = open('bot.log', 'rt')
-    line_log = []
-    loglines = log.readlines()
-    # print(len(loglines))
-    loglines = loglines[-100:]
-    for line in loglines:
-        line_log.append(line)
-    log.close()
-    # print(line_log)
-    func.delete_item_many(mongo, {}, "alarm", "log")
-    for i in line_log:
-        func.insert_item_one(mongo, {'log':str(i)}, 'alarm', 'log')
-    print('readed log')
+# def read_log():
+#     log = open('/home/ec2-user/bot/bot.log', 'rt')
+#     line_log = []
+#     loglines = log.readlines()
+#     # print(len(loglines))
+#     loglines = loglines[-100:]
+#     for line in loglines:
+#         line_log.append(line)
+#     log.close()
+#     # print(line_log)
+#     func.delete_item_many(mongo, {}, "alarm", "log")
+#     for i in line_log:
+#         func.insert_item_one(mongo, {'log':str(i)}, 'alarm', 'log')
+#     print('readed log')
 
 
 
@@ -195,6 +197,7 @@ if __name__ == '__main__':
     mongo = MongoClient(host, int(port))
     print('')
     print('')
+    print("")
     print('################start################')
     print(str(now.year)+"년 " + str(now.month)+"월 "+str(now.day)+ "일 " + str(now.hour)+"시 " + str(now.minute)+ "분")
     # url = 'https://kauth.kakao.com/oauth/authorize?client_id=91d3b37e4651a9c3ab0216abfe877a50&redirect_uri=http://3.35.252.82:5000/kakao_owner_code&response_type=code&scope=talk_message,friends'
@@ -204,7 +207,7 @@ if __name__ == '__main__':
     # func.kakao_to_friends_get_ownertokens(code)
     func.kakao_to_friends_get_refreshtokens()
     send_message()
-    read_log()
+    func.read_log('log_bot')
     # func.kakao_friends_update()    
 
 # if __name__ == '__main__':

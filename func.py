@@ -156,3 +156,16 @@ def nowtime():
     today_date = str(now.year)+today_month+today_day
     today_time = today_hour+'00'
     return str(today_date + '-' + today_time)
+
+def read_log(name):
+    log = open('/home/ec2-user/bot/'+name+'.log', 'rt')
+    line_log = []
+    loglines = log.readlines()
+    loglines = loglines[-100:]
+    for line in loglines:
+        line_log.append(line)
+    log.close()
+    delete_item_many(mongo, {}, "alarm", name)
+    for i in line_log:
+        insert_item_one(mongo, {'log':str(i)}, 'alarm', name)
+    print('reade log')
