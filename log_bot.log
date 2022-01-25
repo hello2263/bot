@@ -7454,3 +7454,2403 @@ readed log
 ################start################
 2022년 1월 15일 19시 0분
 reade log
+
+
+
+################start################
+2022년 1월 15일 20시 0분
+reade log
+
+
+
+################start################
+2022년 1월 15일 21시 0분
+reade log
+
+
+
+################start################
+2022년 1월 15일 22시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 210, in <module>
+    func.read_log('log_bot')
+  File "/home/ec2-user/bot/func.py", line 161, in read_log
+    log = open(name+'.log', 'rt')
+FileNotFoundError: [Errno 2] No such file or directory: 'log_bot.log'
+
+
+
+################start################
+2022년 1월 15일 22시 2분
+readed log
+
+
+
+################start################
+2022년 1월 15일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 5시 0분
+
+
+-----------message------------
+01월 16일 부천시의 
+최고온도 2도 
+최저온도 -6도 입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.15. 00시 기준)
+확진자 수는 4423명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 16일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 7시 0분
+
+
+-----------message------------
+01월 16일 화성시의 
+최고온도 1도 
+최저온도 -6도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 매우 나쁨입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 16일 8시 0분
+
+
+-----------message------------
+01월 16일 평택시의 
+최고온도 1도 
+최저온도 -6도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.15. 00시 기준)
+확진자 수는 4423명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 16일 9시 0분
+
+
+-----------message------------
+01월 16일 구미시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.15. 00시 기준)
+확진자 수는 4423명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 16일 10시 0분
+
+
+-----------message------------
+01월 16일 구미시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 0%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 16일 구미시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 16일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 16일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 5시 0분
+
+
+-----------message------------
+01월 17일 부천시의 
+최고온도 0도 
+최저온도 -7도 입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 17일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 7시 0분
+
+
+-----------message------------
+01월 17일 화성시의 
+최고온도 0도 
+최저온도 -7도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 17일 화성시의 
+최고온도 0도 
+최저온도 -7도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 좋음입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 17일 8시 0분
+
+
+-----------message------------
+01월 17일 이천시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 17일 평택시의 
+최고온도 1도 
+최저온도 -8도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 17일 9시 0분
+
+
+-----------message------------
+01월 17일 구미시의 
+최고온도 4도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.16. 00시 기준)
+확진자 수는 4194명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 17일 10시 0분
+
+
+-----------message------------
+01월 17일 구미시의 
+최고온도 4도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.17. 00시 기준)
+확진자 수는 3859명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 17일 구미시의 
+최고온도 4도 
+최저온도 -5도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.17. 00시 기준)
+확진자 수는 3859명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 17일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 17일 18시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 17일 19시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 17일 20시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 17일 21시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 17일 22시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 17일 23시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 0시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 1시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 2시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 3시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 4시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 5시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 6시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 7시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 8시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 9시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 10시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 11시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 208, in <module>
+    func.kakao_to_friends_get_refreshtokens()
+  File "/home/ec2-user/bot/func.py", line 85, in kakao_to_friends_get_refreshtokens
+    return tokens['access_token']
+KeyError: 'access_token'
+
+
+
+################start################
+2022년 1월 18일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 18일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 5시 0분
+
+
+-----------message------------
+01월 19일 부천시의 
+최고온도 -1도 
+최저온도 -7도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.18. 00시 기준)
+확진자 수는 4072명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 19일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 7시 0분
+
+
+-----------message------------
+01월 19일 화성시의 
+최고온도 0도 
+최저온도 -7도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.18. 00시 기준)
+확진자 수는 4072명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 19일 화성시의 
+최고온도 0도 
+최저온도 -7도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 19일 8시 0분
+
+
+-----------message------------
+01월 19일 이천시의 
+최고온도 0도 
+최저온도 -9도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.18. 00시 기준)
+확진자 수는 4072명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 19일 평택시의 
+최고온도 2도 
+최저온도 -8도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.18. 00시 기준)
+확진자 수는 4072명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 19일 9시 0분
+
+
+-----------message------------
+01월 19일 구미시의 
+최고온도 6도 
+최저온도 -6도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.18. 00시 기준)
+확진자 수는 4072명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 19일 10시 0분
+
+
+-----------message------------
+01월 19일 구미시의 
+최고온도 6도 
+최저온도 -6도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 19일 구미시의 
+최고온도 6도 
+최저온도 -6도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 19일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 19일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 5시 0분
+
+
+-----------message------------
+01월 20일 부천시의 
+최고온도 1도 
+최저온도 -7도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 20일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 7시 0분
+
+
+-----------message------------
+01월 20일 화성시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 20일 화성시의 
+최고온도 1도 
+최저온도 -9도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 20일 8시 0분
+
+
+-----------message------------
+01월 20일 이천시의 
+최고온도 3도 
+최저온도 -10도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 20일 평택시의 
+최고온도 2도 
+최저온도 -10도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 20일 9시 0분
+
+
+-----------message------------
+01월 20일 구미시의 
+최고온도 5도 
+최저온도 -6도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.19. 00시 기준)
+확진자 수는 5805명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 20일 10시 0분
+
+
+-----------message------------
+01월 20일 구미시의 
+최고온도 5도 
+최저온도 -6도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 0%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 20일 구미시의 
+최고온도 5도 
+최저온도 -6도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 20일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 20일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 5시 0분
+
+
+-----------message------------
+01월 21일 부천시의 
+최고온도 3도 
+최저온도 -6도 입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 21일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 7시 0분
+
+
+-----------message------------
+01월 21일 화성시의 
+최고온도 3도 
+최저온도 -8도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 21일 화성시의 
+최고온도 3도 
+최저온도 -8도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 21일 8시 0분
+
+
+-----------message------------
+01월 21일 이천시의 
+최고온도 5도 
+최저온도 -10도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 21일 평택시의 
+최고온도 5도 
+최저온도 -10도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 21일 9시 0분
+
+
+-----------message------------
+01월 21일 구미시의 
+최고온도 7도 
+최저온도 -7도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.20. 00시 기준)
+확진자 수는 6603명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 21일 10시 0분
+
+
+-----------message------------
+01월 21일 구미시의 
+최고온도 7도 
+최저온도 -7도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.21. 00시 기준)
+확진자 수는 6769명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 21일 구미시의 
+최고온도 7도 
+최저온도 -7도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 0%입니다.
+미세먼지는 보통입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.21. 00시 기준)
+확진자 수는 6769명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 21일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 21일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 5시 0분
+
+
+-----------message------------
+01월 22일 부천시의 
+최고온도 4도 
+최저온도 -3도 입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.21. 00시 기준)
+확진자 수는 6769명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 22일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 7시 0분
+
+
+-----------message------------
+01월 22일 화성시의 
+최고온도 5도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 매우 나쁨입니다.
+------------------------------
+{"successful_receiver_uuids":["nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg"]}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 22일 8시 0분
+
+
+-----------message------------
+01월 22일 평택시의 
+최고온도 6도 
+최저온도 -5도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.21. 00시 기준)
+확진자 수는 6769명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 22일 9시 0분
+
+
+-----------message------------
+01월 22일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.21. 00시 기준)
+확진자 수는 6769명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 22일 10시 0분
+
+
+-----------message------------
+01월 22일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.22. 00시 기준)
+확진자 수는 7009명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 22일 구미시의 
+최고온도 7도 
+최저온도 -4도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.22. 00시 기준)
+확진자 수는 7009명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 22일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 22일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 5시 0분
+
+
+-----------message------------
+01월 23일 부천시의 
+최고온도 6도 
+최저온도 -1도 입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.22. 00시 기준)
+확진자 수는 7009명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 23일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 7시 0분
+
+
+-----------message------------
+01월 23일 화성시의 
+최고온도 6도 
+최저온도 -2도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 나쁨입니다.
+------------------------------
+{"successful_receiver_uuids":["nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg"]}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 23일 8시 0분
+
+
+-----------message------------
+01월 23일 평택시의 
+최고온도 8도 
+최저온도 -2도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.22. 00시 기준)
+확진자 수는 7009명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 23일 9시 0분
+
+
+-----------message------------
+01월 23일 구미시의 
+최고온도 10도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.22. 00시 기준)
+확진자 수는 7009명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 23일 10시 0분
+
+
+-----------message------------
+01월 23일 구미시의 
+최고온도 10도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 23일 구미시의 
+최고온도 10도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 23일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 23일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 5시 0분
+
+
+-----------message------------
+01월 24일 부천시의 
+최고온도 8도 
+최저온도 0도 입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 24일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 7시 0분
+
+
+-----------message------------
+01월 24일 화성시의 
+최고온도 9도 
+최저온도 -1도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 24일 화성시의 
+최고온도 9도 
+최저온도 -1도 입니다.
+오전 강수확률은 20%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 나쁨입니다.
+------------------------------
+{"successful_receiver_uuids":["nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg"]}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 24일 8시 0분
+
+
+-----------message------------
+01월 24일 이천시의 
+최고온도 9도 
+최저온도 -2도 입니다.
+오전 강수확률은 0%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 나쁨입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 24일 평택시의 
+최고온도 9도 
+최저온도 -1도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 24일 9시 0분
+
+
+-----------message------------
+01월 24일 구미시의 
+최고온도 9도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.23. 00시 기준)
+확진자 수는 7630명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 24일 10시 0분
+
+
+-----------message------------
+01월 24일 구미시의 
+최고온도 9도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 24일 구미시의 
+최고온도 9도 
+최저온도 0도 입니다.
+오전 강수확률은 30%이며 
+오후 강수확률은 20%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 24일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 14시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 17시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 18시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 19시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 20시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 21시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 22시 0분
+readed log
+
+
+
+################start################
+2022년 1월 24일 23시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 0시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 1시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 2시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 3시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 4시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 5시 0분
+
+
+-----------message------------
+01월 25일 부천시의 
+최고온도 5도 
+최저온도 1도 입니다.
+미세먼지는 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+이시형에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 25일 6시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 7시 0분
+
+
+-----------message------------
+01월 25일 화성시의 
+최고온도 5도 
+최저온도 1도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 매우 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycqp-nl6CSvou4i72IsYG4lKKWo5SlkPE"]}
+준성에게 알림 전송완료
+
+
+-----------message------------
+01월 25일 화성시의 
+최고온도 5도 
+최저온도 1도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 30%입니다.
+미세먼지는 매우 좋음입니다.
+------------------------------
+{"successful_receiver_uuids":["nqaXpZ2okb2Muo-3j76NuI6ilKCVopOmwg"]}
+송진욱에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 25일 8시 0분
+
+
+-----------message------------
+01월 25일 이천시의 
+최고온도 4도 
+최저온도 0도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 점검중입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"successful_receiver_uuids":["nqycrJmpnKufs4a0hrOFvYy_k6WRpJOil_4"]}
+임낙균에게 알림 전송완료
+
+
+-----------message------------
+01월 25일 평택시의 
+최고온도 6도 
+최저온도 0도 입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"msg":"Constraints on the parameter [receiver_uuids] are unsatisfied. The input receiver id(s) is invalid format.","code":-2}
+김규돈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 25일 9시 0분
+
+
+-----------message------------
+01월 25일 구미시의 
+최고온도 6도 
+최저온도 0도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 점검중입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.24. 00시 기준)
+확진자 수는 7513명입니다.
+------------------------------
+{"successful_receiver_uuids":["nquTppahkaSSvoiwhrCGtY2_k6WRpJOil_c"]}
+한지연에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 25일 10시 0분
+
+
+-----------message------------
+01월 25일 구미시의 
+최고온도 6도 
+최저온도 0도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.25. 00시 기준)
+확진자 수는 8571명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-ZoJGgkaKSvoy-jL6Ouo-_iaWTp5KllKHI"]}
+성훈에게 알림 전송완료
+
+
+-----------message------------
+01월 25일 구미시의 
+최고온도 6도 
+최저온도 0도 입니다.
+오전 강수확률은 60%이며 
+오후 강수확률은 60%입니다.
+미세먼지는 좋음입니다.
+코로나바이러스감염증-19 국내 발생현황 (01.25. 00시 기준)
+확진자 수는 8571명입니다.
+------------------------------
+{"successful_receiver_uuids":["nq-aq5ylk6CMuI-7iLmAs5-pnaifrpv4"]}
+문제훈에게 알림 전송완료
+readed log
+
+
+
+################start################
+2022년 1월 25일 11시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 12시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 13시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 14시 0분
+Traceback (most recent call last):
+  File "/home/ec2-user/bot/bot.py", line 205, in <module>
+    for i in data:
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/usr/local/lib64/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 172.17.0.4:27017: [Errno 113] No route to host, Timeout: 30s, Topology Description: <TopologyDescription id: 61ef83d30cd1e564aa79306a, topology_type: Single, servers: [<ServerDescription ('172.17.0.4', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('172.17.0.4:27017: [Errno 113] No route to host')>]>
+
+
+
+################start################
+2022년 1월 25일 15시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 16시 0분
+readed log
+
+
+
+################start################
+2022년 1월 25일 17시 0분
+readed log

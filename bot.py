@@ -190,7 +190,7 @@ def select_dust_area(local):
 
 
 if __name__ == '__main__':
-    host = "172.17.0.4"
+    host = "172.17.0.2"
     port = "27017"
     func.nowtime()
     now = datetime.now()
@@ -204,7 +204,7 @@ if __name__ == '__main__':
     data = func.find_item(mongo, None, "alarm", "code")
     for i in data:
         code = i['code']
-    # func.kakao_to_friends_get_ownertokens(code)
+    # func.kakao_to_friends_get_ownertokens('eqxWBvyET94DjRUXALgjfxlpbcfdiX1UnGOkSb8fWvKGD6t_MVY0L_FfsRXL3AmkjS_r3wopyV4AAAF-awMq3g')
     func.kakao_to_friends_get_refreshtokens()
     send_message()
     func.read_log('log_bot')
